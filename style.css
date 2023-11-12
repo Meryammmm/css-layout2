@@ -1,5 +1,5 @@
 *{
-    font-family:'popping',sans-serif;
+    font-family: Work Sans, Arial, sans-serif;
 }
 .navbar{
     width: 80%;
@@ -125,6 +125,10 @@
     margin-bottom: 30px;
     font-style: bold;
 }
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+}
 
 p {
     display: block;
@@ -134,3 +138,44 @@ p {
     margin-inline-end: 0px;
 }
 
+#section3title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#section3logos {
+        display: flex;
+        gap: 4rem;
+        flex-wrap: wrap;
+    }
+ .section3 div {
+        width: 60%;
+        display: flex;
+    }
+    #section3logos img {
+        width: 7.5rem;
+        object-fit: contain;
+    }
+    img {
+        vertical-align: middle;
+    }
+    img {
+        border: 0;
+    }
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
